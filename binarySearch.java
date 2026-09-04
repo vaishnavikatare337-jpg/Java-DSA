@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class binarySearch {
     public static void main(String args[]){
@@ -7,7 +6,7 @@ public class binarySearch {
         int answer = sorting(array,target);
         System.out.println(answer);
     }
-    static int sorting(int arr[], int num){
+    static int sorting(int arr[], int num){ 
         int start = 0;
         int end = arr.length -1;
         int mid = start + (end-start)/2;
