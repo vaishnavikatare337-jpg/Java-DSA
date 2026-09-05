@@ -4,6 +4,7 @@ public class isArmstrong{
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         System.out.println(armstrong(num));
+        sc.close();
 
     }
     static boolean armstrong(int n){
@@ -15,6 +16,6 @@ public class isArmstrong{
             sum = sum+ rem*rem*rem;
         }
        return sum == original;
-     
+    
     }
 }
