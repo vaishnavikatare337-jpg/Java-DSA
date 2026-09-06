@@ -1,10 +1,10 @@
 import java.util.*;
 public class isArmstrong{
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int num = scanner.nextInt();
         System.out.println(armstrong(num));
-        sc.close();
+        scanner.close();
 
     }
     static boolean armstrong(int n){
